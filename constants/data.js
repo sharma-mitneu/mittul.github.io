@@ -86,7 +86,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "",
+    "https://docs.google.com/document/d/1MxHh63RyQ67da0Rc_x8W3bnNMwxeO0VH/edit?usp=sharing&ouid=114352002035200133156&rtpof=true&sd=true",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/mittul-sharma-38015965/",
     github: "https://github.com/sharma-mitneu",
