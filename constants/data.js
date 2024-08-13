@@ -20,7 +20,7 @@ const userData = {
     {
       title: "Twitter Sentiment Analysis",
       link: "https://github.com/sharma-mitneu/Twitter-Sentiment-Analysis",
-      imgUrl: "/twitter_sentiment.png",
+      imgUrl: "/twitter_sentiment.jpeg",
     },
     {
       title: "Husky Lives",
