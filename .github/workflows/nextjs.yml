@@ -79,6 +79,14 @@ jobs:
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
 
+      # Step to export the static Next.js site
+      - name: Export Next.js site
+        run: ${{ steps.detect-package-manager.outputs.runner }} next export
+
+      # Step to check output directory
+      - name: Check Output Directory
+        run: ls -la ./out
+
       # Step to upload the build artifacts
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
